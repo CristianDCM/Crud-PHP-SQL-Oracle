@@ -1,0 +1,39 @@
+/*Menu*/
+.containermenu {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marginmenu{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ddd;
+}
+.btn-primary {
+    margin: 5px;
+}
+
+.contmenu tr td,
+thead tr th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+/*Modificar, Registrar, Login*/
+.containerall {
+    width: 220px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px #ddd;
+    border-radius: 5px;
+}
+
+.containerall input {
+    margin: 5px auto;
+}
